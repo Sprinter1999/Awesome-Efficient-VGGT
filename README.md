@@ -6,7 +6,7 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 
 **Feed-forward 3D reconstruction** predicts 3D geometry and camera information directly from input images through a neural network forward pass, reducing the reliance on costly per-scene optimization in traditional reconstruction pipelines. For a broader collection of works in this direction, please refer to [Awesome-Feed-Forward-3D](https://github.com/ziplab/Awesome-Feed-Forward-3D).
 
-[**VGGT**](https://arxiv.org/abs/2503.11651) is a representative feed-forward 3D model that directly predicts camera parameters, depth maps, point maps, and 3D point tracks from one or multiple input views. Since its global attention becomes computationally expensive as the number of visual tokens grows, recent studies explore efficient VGGT inference through token reduction, sparse attention, compact architectures, and quantization.
+[**VGGT**](https://arxiv.org/abs/2503.11651) is a representative feed-forward 3D model that directly predicts camera parameters, depth maps, point maps, and 3D point tracks from one or multiple input views. Since its global attention becomes computationally expensive as the number of visual tokens grows, recent studies explore efficient VGGT inference through token reduction, sparse attention, compact architectures, and quantization. We also recommend some classic related works which also focus on the efficient feed-forward 3D.
 
 | Method | Paper | Paper Link | GitHub Repo |
 |---|---|---|---|
