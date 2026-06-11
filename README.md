@@ -66,6 +66,16 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 | TAPTQ | Tail-Aware Post-Training Quantization for 3D Geometry Models | [Paper](https://arxiv.org/abs/2602.01741) | - |
 | FGQ | Not All Tasks Quantize Equally: Fisher-Guided Quantization for Visual Geometry Transformer | [Paper](https://arxiv.org/abs/2605.15828) | [Code](https://github.com/ypzhng/FGQ) |
 
+
+## VGGT-native Extensions
+
+| Method | Paper | Paper Link | GitHub Repo |
+|---|---|---|---|
+| VGGT-Ω | VGGT-Ω | [Paper](https://arxiv.org/abs/2605.15195) | [Code](https://github.com/facebookresearch/vggt-omega) |
+| HD-VGGT | HD-VGGT: High-Resolution Visual Geometry Transformer | [Paper](https://arxiv.org/abs/2603.27222) | - |
+| RobustVGGT | Emergent Outlier View Rejection in Visual Geometry Grounded Transformers | [Paper](https://arxiv.org/abs/2512.04012) | [Code](https://github.com/cvlab-kaist/RobustVGGT) |
+| OmniVGGT | OmniVGGT: Omni-Modality Driven Visual Geometry Grounded | [Paper](https://arxiv.org/abs/2511.10560) | [Code](https://github.com/Livioni/OmniVGGT-official) |
+
 ## Contributing
 
 Pull requests are welcome. Please provide the method name, paper title, paper link, GitHub repository if available, and taxonomy category.
