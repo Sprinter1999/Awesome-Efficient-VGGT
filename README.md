@@ -18,7 +18,7 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 - **Training-aware Approach**: Methods requiring auxiliary-module training, distillation, fine-tuning, or training a new efficient architecture.
 - **Test-Time Training Approach**: Methods that adapt the model at inference time via lightweight self-supervised optimization, without offline training of additional modules.
 - **Quantization Approach**: Methods reducing numerical precision for efficient VGGT deployment.
-
+- **VGGT-native Extensions**: Related extensions to VGGT.
 ## Training-free Approach
 
 | Method | Paper | Paper Link | GitHub Repo |
@@ -36,7 +36,7 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 ## Training-aware Approach
 
 | Method | Paper | Paper Link | GitHub Repo |
-|---|---|---|---|
+|--|---|---|---|
 | StreamVGGT | Streaming 4D Visual Geometry Transformer | [Paper](https://arxiv.org/abs/2507.11539) | [Code](https://github.com/wzzheng/StreamVGGT) |
 | eVGGT | Improving Robotic Manipulation with Efficient Geometry-Aware Vision Encoder | [Paper](https://arxiv.org/abs/2509.15880) | [Code](https://github.com/andvg3/eVGGT) |
 | Co-Me | Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers | [Paper](https://arxiv.org/abs/2511.14751) | [Code](https://github.com/co-me-tokens/CoMe) |
@@ -44,6 +44,7 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 | PaceVGGT | PaceVGGT: Pre-Alternating-Attention Token Pruning for Visual Geometry Transformers | [Paper](https://arxiv.org/abs/2605.08371) | - |
 | Lite3R | Lite3R: A Model-Agnostic Framework for Efficient Feed-Forward 3D Reconstruction | [Paper](https://arxiv.org/abs/2605.11354) | [Code](https://github.com/AIGeeksGroup/Lite3R) |
 | TurboVGGT | TurboVGGT: Fast Visual Geometry Reconstruction with Adaptive Alternating Attention | [Paper](https://arxiv.org/abs/2605.14315) | - |
+| D4RT | Efficiently Reconstructing Dynamic Scenes One D4RT at a Time | [Paper](https://arxiv.org/pdf/2512.08924) | - |
 
 > **Note:** Co-Me keeps the base model frozen, but is categorized as training-aware because it distills a lightweight confidence predictor. StreamVGGT is categorized as training-aware because it distills a causal architecture from VGGT.
 
@@ -75,6 +76,8 @@ A curated list of efficient methods for **Visual Geometry Grounded Transformer (
 | HD-VGGT | HD-VGGT: High-Resolution Visual Geometry Transformer | [Paper](https://arxiv.org/abs/2603.27222) | - |
 | RobustVGGT | Emergent Outlier View Rejection in Visual Geometry Grounded Transformers | [Paper](https://arxiv.org/abs/2512.04012) | [Code](https://github.com/cvlab-kaist/RobustVGGT) |
 | OmniVGGT | OmniVGGT: Omni-Modality Driven Visual Geometry Grounded | [Paper](https://arxiv.org/abs/2511.10560) | [Code](https://github.com/Livioni/OmniVGGT-official) |
+
+## 
 
 ## Contributing
 
